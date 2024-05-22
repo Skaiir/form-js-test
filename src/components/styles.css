@@ -1,0 +1,81 @@
+:focus,
+:focus-visible {
+  outline: rgb(255, 255, 255) auto 0px !important;
+}
+
+.range-group,
+.custom-text-field-group,
+.custom-select {
+    font-family: 'Roboto';
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.range-group input,
+.custom-text-field-group input,
+.custom-select select {
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.range-group .range-value {
+    margin-left: 4px;
+}
+
+.custom-text-field-group input {
+    border: 1px rgb(243, 242, 241);
+    border-radius: 4px;
+    background: none rgb(231, 238, 243);
+    color: rgb(27, 27, 27);
+}
+
+.custom-text-field-group input:disabled {
+    border: 1px rgb(231, 238, 243);
+    background: none rgb(243, 242, 241);
+    color: rgb(161, 159, 157);
+}
+
+.custom-text-field-group,
+.fjs-container .fjs-input-group {
+    height: 24px !important;
+    background: none rgb(231, 238, 243);
+    border: 1px rgb(231, 238, 243) !important;
+    border-radius: 4px;
+    outline: rgb(255, 255, 255) auto 0px !important;
+}
+
+.fjs-select-display {
+    padding: 2px 4px 4px 4px !important;
+    font-family: 'Roboto';
+}
+
+.fjs-select-arrow, .fjs-select-cross {
+    padding: 1px 10px !important;
+}
+
+.fjs-form-field-label {
+    display: block !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    padding: 5px 0px;
+    color: rgb(76, 76, 76) !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    font-family: 'Roboto';
+}
+
+.fjs-form-field-label:disabled {
+    color: rgb(161, 159, 157) !important;
+}
+
+input[type="range"] {
+    accent-color: rgb(231, 238, 243) !important;
+} 
+
+.fjs-select-anchor * {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
